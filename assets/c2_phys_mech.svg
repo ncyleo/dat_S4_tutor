@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 210" role="img">
+  <rect width="440" height="210" fill="#f8fafc"/>
+  <text x="220" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">物理性質 vs 機械性質</text>
+  <rect x="20" y="40" width="190" height="150" rx="10" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="115" y="68" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="800" fill="#1d4ed8">物理性質</text>
+  <text x="115" y="95" text-anchor="middle" font-size="12" fill="#334155" font-family="sans-serif">密度 · 溶點</text>
+  <text x="115" y="115" text-anchor="middle" font-size="12" fill="#334155" font-family="sans-serif">導電／導熱</text>
+  <text x="115" y="145" text-anchor="middle" font-size="11" fill="#64748b" font-family="sans-serif">唔靠外力「拗」先見到</text>
+  <rect x="230" y="40" width="190" height="150" rx="10" fill="#fef2f2" stroke="#ef4444"/>
+  <text x="325" y="68" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="800" fill="#b91c1c">機械性質</text>
+  <text x="325" y="95" text-anchor="middle" font-size="12" fill="#334155" font-family="sans-serif">強度 · 硬度</text>
+  <text x="325" y="115" text-anchor="middle" font-size="12" fill="#334155" font-family="sans-serif">韌性 · 彈性</text>
+  <text x="325" y="145" text-anchor="middle" font-size="11" fill="#64748b" font-family="sans-serif">加力之後先表現出嚟</text>
+</svg>

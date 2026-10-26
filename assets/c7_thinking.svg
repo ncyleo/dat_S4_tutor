@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 180" role="img" aria-label="垂直與水平思考">
+  <rect width="460" height="180" fill="#f8fafc"/>
+  <text x="230" y="22" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1e3a8a">垂直思考 vs 水平思考</text>
+  <!-- vertical -->
+  <rect x="40" y="45" width="160" height="100" rx="8" fill="#fff" stroke="#2563eb"/>
+  <text x="120" y="68" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4ed8" font-family="sans-serif">垂直</text>
+  <text x="120" y="92" text-anchor="middle" font-size="11" fill="#334155" font-family="sans-serif">沿一條路深入</text>
+  <text x="120" y="112" text-anchor="middle" font-size="11" fill="#334155" font-family="sans-serif">邏輯、步驟、精煉</text>
+  <text x="120" y="132" text-anchor="middle" font-size="11" fill="#64748b" font-family="sans-serif">例：優化同一手柄握感</text>
+  <!-- lateral -->
+  <rect x="260" y="45" width="160" height="100" rx="8" fill="#fff" stroke="#16a34a"/>
+  <text x="340" y="68" text-anchor="middle" font-size="13" font-weight="700" fill="#15803d" font-family="sans-serif">水平</text>
+  <text x="340" y="92" text-anchor="middle" font-size="11" fill="#334155" font-family="sans-serif">跳出框、換角度</text>
+  <text x="340" y="112" text-anchor="middle" font-size="11" fill="#334155" font-family="sans-serif">聯想、多樣方案</text>
+  <text x="340" y="132" text-anchor="middle" font-size="11" fill="#64748b" font-family="sans-serif">例：手柄→腳控／聲控</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" role="img" aria-label="比例與質感">
+  <rect width="420" height="200" fill="#f8fafc"/>
+  <text x="210" y="22" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1e3a8a">空間 · 比例 · 質感</text>
+  <rect x="40" y="50" width="40" height="100" fill="#93c5fd" stroke="#1d4ed8"/>
+  <rect x="100" y="70" width="60" height="80" fill="#60a5fa" stroke="#1d4ed8"/>
+  <rect x="180" y="40" width="30" height="110" fill="#3b82f6" stroke="#1e3a8a"/>
+  <text x="125" y="170" text-anchor="middle" font-size="11" fill="#475569" font-family="sans-serif">比例關係（高矮／佔位）</text>
+  <!-- texture -->
+  <rect x="280" y="50" width="100" height="90" fill="#fff" stroke="#64748b"/>
+  <g stroke="#64748b" stroke-width="1">
+    <line x1="290" y1="60" x2="370" y2="60"/><line x1="290" y1="75" x2="370" y2="75"/>
+    <line x1="290" y1="90" x2="370" y2="90"/><line x1="290" y1="105" x2="370" y2="105"/>
+    <line x1="290" y1="120" x2="370" y2="120"/>
+  </g>
+  <text x="330" y="170" text-anchor="middle" font-size="11" fill="#475569" font-family="sans-serif">質感（視覺紋理）</text>
+</svg>

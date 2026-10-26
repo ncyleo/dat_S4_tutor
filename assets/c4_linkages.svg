@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" role="img">
+<rect width="520" height="200" fill="#ffffff"/>
+<text x="260.0" y="22" text-anchor="middle" font-family="Noto Sans TC,Microsoft JhengHei,sans-serif" font-size="14" font-weight="700" fill="#1e3a8a">連杆運動細類</text>
+<rect x="12.0" y="40" width="115.0" height="145" rx="10" fill="#f8fafc" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="69.5" cy="78" r="18" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+<text x="69.5" y="83" text-anchor="middle" font-size="12" font-weight="700" fill="#1d4ed8">1</text>
+<text x="69.5" y="149" text-anchor="middle" font-family="Noto Sans TC,Microsoft JhengHei,sans-serif" font-size="12" font-weight="700" fill="#0f172a">平行</text>
+<text x="69.5" y="169" text-anchor="middle" font-family="Noto Sans TC,Microsoft JhengHei,sans-serif" font-size="10" fill="#64748b">同向平行</text>
+<rect x="139.0" y="40" width="115.0" height="145" rx="10" fill="#f8fafc" stroke="#059669" stroke-width="2"/>
+<circle cx="196.5" cy="78" r="18" fill="none" stroke="#059669" stroke-width="2.5"/>
+<text x="196.5" y="83" text-anchor="middle" font-size="12" font-weight="700" fill="#059669">2</text>
+<text x="196.5" y="149" text-anchor="middle" font-family="Noto Sans TC,Microsoft JhengHei,sans-serif" font-size="12" font-weight="700" fill="#0f172a">反向</text>
+<text x="196.5" y="169" text-anchor="middle" font-family="Noto Sans TC,Microsoft JhengHei,sans-serif" font-size="10" fill="#64748b">方向相反</text>
+<rect x="266.0" y="40" width="115.0" height="145" rx="10" fill="#f8fafc" stroke="#b45309" stroke-width="2"/>
+<circle cx="323.5" cy="78" r="18" fill="none" stroke="#b45309" stroke-width="2.5"/>
+<text x="323.5" y="83" text-anchor="middle" font-size="12" font-weight="700" fill="#b45309">3</text>
+<text x="323.5" y="149" text-anchor="middle" font-family="Noto Sans TC,Microsoft JhengHei,sans-serif" font-size="12" font-weight="700" fill="#0f172a">推拉</text>
+<text x="323.5" y="169" text-anchor="middle" font-family="Noto Sans TC,Microsoft JhengHei,sans-serif" font-size="10" fill="#64748b">推／拉</text>
+<rect x="393.0" y="40" width="115.0" height="145" rx="10" fill="#f8fafc" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="450.5" cy="78" r="18" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+<text x="450.5" y="83" text-anchor="middle" font-size="12" font-weight="700" fill="#7c3aed">4</text>
+<text x="450.5" y="149" text-anchor="middle" font-family="Noto Sans TC,Microsoft JhengHei,sans-serif" font-size="12" font-weight="700" fill="#0f172a">直角</text>
+<text x="450.5" y="169" text-anchor="middle" font-family="Noto Sans TC,Microsoft JhengHei,sans-serif" font-size="10" fill="#64748b">改角度</text>
+</svg>

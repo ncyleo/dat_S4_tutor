@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" role="img">
+  <rect width="480" height="200" fill="#f8fafc"/>
+  <text x="240" y="24" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">輸入 → 處理 → 輸出（黑箱）</text>
+  <rect x="30" y="70" width="100" height="60" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="80" y="105" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="800" fill="#1e40af">輸入</text>
+  <polygon points="140,100 170,100 170,90 195,110 170,130 170,120 140,120" fill="#64748b"/>
+  <rect x="210" y="55" width="110" height="90" rx="8" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <text x="265" y="95" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="800" fill="#e2e8f0">處理</text>
+  <text x="265" y="118" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">（暫不理內部）</text>
+  <polygon points="330,100 360,100 360,90 385,110 360,130 360,120 330,120" fill="#64748b"/>
+  <rect x="400" y="70" width="100" height="60" rx="8" fill="#d1fae5" stroke="#059669" stroke-width="2"/>
+  <text x="450" y="105" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="800" fill="#047857">輸出</text>
+</svg>

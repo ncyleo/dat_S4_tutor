@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 230" role="img">
+  <rect width="480" height="230" fill="#f8fafc"/>
+  <text x="240" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">開環 vs 閉環</text>
+  <!-- open -->
+  <text x="120" y="48" text-anchor="middle" font-size="12" font-weight="700" fill="#64748b" font-family="sans-serif">開環（無反饋）</text>
+  <rect x="30" y="60" width="60" height="36" rx="6" fill="#dbeafe"/><text x="60" y="83" text-anchor="middle" font-size="11" font-family="sans-serif">I</text>
+  <rect x="110" y="60" width="60" height="36" rx="6" fill="#e2e8f0"/><text x="140" y="83" text-anchor="middle" font-size="11" font-family="sans-serif">P</text>
+  <rect x="190" y="60" width="60" height="36" rx="6" fill="#d1fae5"/><text x="220" y="83" text-anchor="middle" font-size="11" font-family="sans-serif">O</text>
+  <line x1="90" y1="78" x2="110" y2="78" stroke="#64748b" marker-end="url(#a)"/>
+  <line x1="170" y1="78" x2="190" y2="78" stroke="#64748b"/>
+  <!-- closed -->
+  <text x="300" y="48" text-anchor="middle" font-size="12" font-weight="700" fill="#b45309" font-family="sans-serif">閉環（有反饋）</text>
+  <rect x="270" y="60" width="55" height="36" rx="6" fill="#dbeafe"/><text x="297" y="83" text-anchor="middle" font-size="11" font-family="sans-serif">I</text>
+  <rect x="345" y="60" width="55" height="36" rx="6" fill="#e2e8f0"/><text x="372" y="83" text-anchor="middle" font-size="11" font-family="sans-serif">P</text>
+  <rect x="420" y="60" width="45" height="36" rx="6" fill="#d1fae5"/><text x="442" y="83" text-anchor="middle" font-size="11" font-family="sans-serif">O</text>
+  <path d="M442 96 L442 150 L297 150 L297 96" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <text x="370" y="170" text-anchor="middle" font-size="12" font-weight="700" fill="#b45309" font-family="sans-serif">反饋</text>
+  <text x="240" y="205" text-anchor="middle" font-size="11" fill="#64748b" font-family="sans-serif">閉環用探測器比較「實際輸出」同「目標」</text>
+</svg>
