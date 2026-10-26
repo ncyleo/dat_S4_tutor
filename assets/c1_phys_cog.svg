@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img">
+  <rect width="440" height="200" fill="#f8fafc"/>
+  <rect x="20" y="40" width="180" height="130" rx="12" fill="#dbeafe" stroke="#3b82f6"/>
+  <rect x="240" y="40" width="180" height="130" rx="12" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="110" y="70" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="800" fill="#1e40af">生理人體工程學</text>
+  <text x="110" y="100" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">尺寸 · 姿勢 · 力量</text>
+  <text x="110" y="120" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">活動範圍 · 舒適</text>
+  <text x="330" y="70" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="800" fill="#92400e">認知人體工程學</text>
+  <text x="330" y="100" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">知覺 · 記憶 · 決策</text>
+  <text x="330" y="120" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">介面 · 顏色 · 提示</text>
+  <text x="220" y="28" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#0f172a">兩大範疇（校本示意）</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img">
+  <rect width="480" height="240" fill="#f8fafc"/>
+  <text x="240" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">槓桿三類（支點位置）</text>
+  <!-- class 1 -->
+  <g transform="translate(20,40)">
+    <text x="70" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#1d4ed8" font-family="sans-serif">第一類</text>
+    <line x1="10" y1="50" x2="130" y2="50" stroke="#334155" stroke-width="4"/>
+    <polygon points="70,50 60,70 80,70" fill="#0f172a"/>
+    <text x="20" y="40" font-size="10" fill="#dc2626" font-family="sans-serif">力</text>
+    <text x="115" y="40" font-size="10" fill="#059669" font-family="sans-serif">負載</text>
+    <text x="70" y="95" text-anchor="middle" font-size="10" fill="#64748b" font-family="sans-serif">支點在中（剪刀）</text>
+  </g>
+  <g transform="translate(170,40)">
+    <text x="70" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#1d4ed8" font-family="sans-serif">第二類</text>
+    <line x1="10" y1="50" x2="130" y2="50" stroke="#334155" stroke-width="4"/>
+    <polygon points="20,50 10,70 30,70" fill="#0f172a"/>
+    <text x="70" y="40" font-size="10" fill="#059669" font-family="sans-serif">負載</text>
+    <text x="120" y="40" font-size="10" fill="#dc2626" font-family="sans-serif">力</text>
+    <text x="70" y="95" text-anchor="middle" font-size="10" fill="#64748b" font-family="sans-serif">負載在中（螺絲批／開瓶器類）</text>
+  </g>
+  <g transform="translate(320,40)">
+    <text x="70" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#1d4ed8" font-family="sans-serif">第三類</text>
+    <line x1="10" y1="50" x2="130" y2="50" stroke="#334155" stroke-width="4"/>
+    <polygon points="20,50 10,70 30,70" fill="#0f172a"/>
+    <text x="70" y="40" font-size="10" fill="#dc2626" font-family="sans-serif">力</text>
+    <text x="120" y="40" font-size="10" fill="#059669" font-family="sans-serif">負載</text>
+    <text x="70" y="95" text-anchor="middle" font-size="10" fill="#64748b" font-family="sans-serif">力在中（镊子／前臂）</text>
+  </g>
+  <text x="240" y="220" text-anchor="middle" font-size="11" fill="#64748b" font-family="sans-serif">口訣：睇「支點／負載／施力」邊個喺中間</text>
+</svg>

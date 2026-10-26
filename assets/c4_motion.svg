@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" role="img" aria-label="四類運動">
+  <rect width="560" height="200" fill="#f8fafc"/>
+  <text x="280" y="24" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#1e3a8a">運動類型</text>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#047857"/>
+    </marker>
+    <marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#b45309"/>
+    </marker>
+    <marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1d4ed8"/>
+    </marker>
+    <marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+  <!-- 直線 -->
+  <g font-family="sans-serif" font-size="12">
+    <line x1="36" y1="95" x2="120" y2="95" stroke="#059669" stroke-width="3" marker-end="url(#arr)"/>
+    <text x="78" y="150" text-anchor="middle" fill="#047857" font-weight="600">直線運動</text>
+    <text x="78" y="168" text-anchor="middle" fill="#64748b" font-size="10">沿直線移動</text>
+  </g>
+  <!-- 往復 -->
+  <g font-family="sans-serif" font-size="12">
+    <line x1="160" y1="95" x2="250" y2="95" stroke="#b45309" stroke-width="3" marker-start="url(#arrB)" marker-end="url(#arrB)"/>
+    <text x="205" y="150" text-anchor="middle" fill="#92400e" font-weight="600">往復運動</text>
+    <text x="205" y="168" text-anchor="middle" fill="#64748b" font-size="10">前後來回直線</text>
+  </g>
+  <!-- 旋轉 -->
+  <g font-family="sans-serif" font-size="12">
+    <circle cx="330" cy="95" r="28" fill="none" stroke="#1d4ed8" stroke-width="3"/>
+    <path d="M330 67 A28 28 0 0 1 358 95" fill="none" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrR)"/>
+    <circle cx="330" cy="95" r="3" fill="#1d4ed8"/>
+    <text x="330" y="150" text-anchor="middle" fill="#1e40af" font-weight="600">旋轉運動</text>
+    <text x="330" y="168" text-anchor="middle" fill="#64748b" font-size="10">繞軸轉</text>
+  </g>
+  <!-- 搖擺 -->
+  <g font-family="sans-serif" font-size="12">
+    <circle cx="450" cy="70" r="3" fill="#7c3aed"/>
+    <line x1="450" y1="70" x2="450" y2="118" stroke="#7c3aed" stroke-width="2.5"/>
+    <path d="M420 118 A40 40 0 0 0 480 118" fill="none" stroke="#7c3aed" stroke-width="2.5" marker-start="url(#arrP)" marker-end="url(#arrP)"/>
+    <text x="450" y="150" text-anchor="middle" fill="#6d28d9" font-weight="600">搖擺運動</text>
+    <text x="450" y="168" text-anchor="middle" fill="#64748b" font-size="10">弧線來回（鞦韆）</text>
+  </g>
+</svg>
