@@ -7,8 +7,8 @@
     <circle cx="210" cy="55" r="12"/><line x1="210" y1="67" x2="210" y2="145"/><line x1="210" y1="90" x2="180" y2="115"/><line x1="210" y1="90" x2="240" y2="115"/><line x1="210" y1="145" x2="185" y2="185"/><line x1="210" y1="145" x2="235" y2="185"/>
     <circle cx="340" cy="45" r="12"/><line x1="340" y1="57" x2="340" y2="150"/><line x1="340" y1="85" x2="305" y2="110"/><line x1="340" y1="85" x2="375" y2="110"/><line x1="340" y1="150" x2="310" y2="195"/><line x1="340" y1="150" x2="370" y2="195"/>
   </g>
-  <text x="80" y="205" text-anchor="middle" font-size="12" fill="#64748b" font-family="sans-serif">5th</text>
-  <text x="210" y="205" text-anchor="middle" font-size="12" fill="#64748b" font-family="sans-serif">50th</text>
-  <text x="340" y="205" text-anchor="middle" font-size="12" fill="#64748b" font-family="sans-serif">95th</text>
+  <text x="80" y="205" text-anchor="middle" font-size="12" fill="#64748b" font-family="sans-serif">5%</text>
+  <text x="210" y="205" text-anchor="middle" font-size="12" fill="#64748b" font-family="sans-serif">50%</text>
+  <text x="340" y="205" text-anchor="middle" font-size="12" fill="#64748b" font-family="sans-serif">95%</text>
   <line x1="40" y1="195" x2="380" y2="195" stroke="#94a3b8" stroke-dasharray="4 3"/>
 </svg>

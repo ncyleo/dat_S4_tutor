@@ -752,16 +752,16 @@
       "id": "c1-percentile",
       "chapter": 4,
       "nav": "4.3 百分位與尺寸",
-      "title": "人體尺寸同百分位（5th–95th）",
+      "title": "人體尺寸同百分位（5%–95%）",
       "pill": "數據",
       "live": true,
-      "teach": "<p>人體尺寸人人唔同。設計常用<strong>百分位</strong>描述群體：例如</p>\n<ul>\n  <li><span class=\"kw\">5th</span>：較細／較矮嗰批（約 5% 人細過呢個值）</li>\n  <li><span class=\"kw\">50th</span>：中位附近</li>\n  <li><span class=\"kw\">95th</span>：較大／較高嗰批</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_anthropometry_scene.png\" alt=\"百分位：5th／50th／95th 剪影示意（校本卡通）\"></figure>\n<p>設計「通道高度」往往遷就較高用家；「夠唔夠得著」有時要顧較矮用家。重點係：<strong>清楚你為邊個百分位設計</strong>。</p>\n<div class=\"tip\">唔同地區、年齡、性別群體，尺寸數據可以差好遠——唔好假設「一套全球通用」。</div>",
+      "teach": "<p>人體尺寸人人唔同。設計常用<strong>百分位</strong>描述群體：例如</p>\n<ul>\n  <li><span class=\"kw\">5%</span>：較細／較矮嗰批（約 5% 人細過呢個值；亦稱第 5 百分位）</li>\n  <li><span class=\"kw\">50%</span>：中位附近（亦稱第 50 百分位）</li>\n  <li><span class=\"kw\">95%</span>：較大／較高嗰批（亦稱第 95 百分位）</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_anthropometry_scene.png\" alt=\"百分位：5%／50%／95% 剪影示意（校本卡通）\"></figure>\n<p>設計「通道高度」往往遷就較高用家；「夠唔夠得著」有時要顧較矮用家。重點係：<strong>清楚你為邊個百分位設計</strong>。</p>\n<div class=\"tip\">唔同地區、年齡、性別群體，尺寸數據可以差好遠——唔好假設「一套全球通用」。</div>",
       "practice": {
         "type": "mcq",
         "prompt": "設計門洞淨高，想大多數高個子都唔會撞頭，通常較合理係參考？",
         "choices": [
-          "只參考 5th 百分位高度",
-          "參考較高百分位（例如接近 95th）再加安全餘量",
+          "只參考 5% 百分位高度",
+          "參考較高百分位（例如接近 95%）再加安全餘量",
           "完全唔使人體數據",
           "只跟設計師自己身高"
         ],
@@ -774,7 +774,7 @@
         "tip": "問自己：呢件設計係要「夠大容到人」定「細手都夠力用」？",
         "guidedHints": [
           "撞頭問題同邊種身高有關？",
-          "5th 同 95th 邊個代表較高？",
+          "5% 同 95% 邊個代表較高？",
           "安全餘量代表咩？"
         ],
         "fig": "assets/kuailong_anthropometry_scene.png"
