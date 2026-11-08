@@ -7,6 +7,7 @@
   let currentId = 'home';
   let practiceChecked = false;
   let hintStep = 0;
+  let bankIndex = 0;
   let progress = loadProgress();
 
   function $(id) { return document.getElementById(id); }
@@ -65,6 +66,11 @@
   /** Escape plain text then convert primes → .obar spans. */
   function boolHtml(raw) {
     return primeToObar(esc(raw));
+  }
+
+  /** Practice prompt: same as boolHtml, but keep author line breaks. */
+  function promptHtml(raw) {
+    return boolHtml(raw).replace(/\n/g, '<br>');
   }
 
   /** Walk trusted HTML: convert primes in text nodes only; do not touch tags. */
@@ -235,19 +241,31 @@
     return '<button type="button" class="' + cls + '" ' + rowAttr + ' data-val="">?</button>';
   }
 
-  function renderPractice(lesson) {
-    const pr = lesson.practice;
-    if (!pr) return '';
-    let body = '';
+  function isPracticeBank(pr) {
+    return !!(pr && pr.type === 'bank' && Array.isArray(pr.questions) && pr.questions.length);
+  }
 
+  /** Single-question object the checkers already understand (mcq / fill / …). */
+  function activePractice(lesson) {
+    const raw = lesson && lesson.practice;
+    if (!raw) return null;
+    if (!isPracticeBank(raw)) return raw;
+    const qs = raw.questions;
+    if (bankIndex < 0) bankIndex = 0;
+    if (bankIndex > qs.length - 1) bankIndex = qs.length - 1;
+    return qs[bankIndex];
+  }
+
+  function renderPracticeBody(pr) {
+    let body = '';
     if (pr.type === 'mcq') {
-      body += '<p class="try-note">' + boolHtml(pr.prompt) + '</p><div class="mcq-opts" id="mcqOpts">';
+      body += '<p class="try-note">' + promptHtml(pr.prompt) + '</p><div class="mcq-opts" id="mcqOpts">';
       pr.choices.forEach((c, i) => {
         body += '<label><input type="radio" name="mcq" value="' + i + '"><span>' + boolHtml(c) + '</span></label>';
       });
       body += '</div>';
     } else if (pr.type === 'fill') {
-      body += '<p class="try-note">' + boolHtml(pr.prompt) + '</p><div class="fill-fields" id="fillFields">';
+      body += '<p class="try-note">' + promptHtml(pr.prompt) + '</p><div class="fill-fields" id="fillFields">';
       (pr.fields || []).forEach((f, i) => {
         body += '<div class="fill-row"><label for="fill_' + i + '">' + boolHtml(f.label || ('欄'+(i+1))) + '</label>' +
           '<input type="text" id="fill_' + i + '" data-idx="' + i + '" autocomplete="off" placeholder="' + esc(f.placeholder || '輸入答案') + '"></div>';
@@ -255,7 +273,7 @@
       body += '</div>';
       if (pr.note) body += '<p class="muted">' + boolHtml(pr.note) + '</p>';
     } else if (pr.type === 'match') {
-      body += '<p class="try-note">' + boolHtml(pr.prompt) + '</p><div class="match-list" id="matchList">';
+      body += '<p class="try-note">' + promptHtml(pr.prompt) + '</p><div class="match-list" id="matchList">';
       const opts = pr.options || [];
       (pr.items || []).forEach((it, i) => {
         body += '<div class="match-row"><span class="m-left">' + boolHtml(it.text || it) + '</span>' +
@@ -269,7 +287,7 @@
     } else if (pr.type === 'truth') {
       body += renderTruthBlock(pr, 'ttFill');
     } else if (pr.type === 'kmap') {
-      body += '<p class="try-note">' + boolHtml(pr.prompt) + '</p>';
+      body += '<p class="try-note">' + promptHtml(pr.prompt) + '</p>';
       body += '<div class="kmap-wrap" id="kmapWrap">';
       body += '<table class="kmap-grid" id="kmapGrid"><thead><tr><th class="kmap-corner"></th>';
       (pr.colLabels || []).forEach(h => { body += '<th>' + boolHtml(h) + '</th>'; });
@@ -288,7 +306,7 @@
       body += '</tbody></table>';
       body += '<p class="kmap-hint">撳格：? → 0 → 1。軸標已用 Gray code。</p>';
       if (pr.readChoices && pr.readChoices.length) {
-        body += '<p class="try-note" style="margin-top:.75rem">' + boolHtml(pr.readPrompt || '化簡後 F 係？') + '</p>';
+        body += '<p class="try-note" style="margin-top:.75rem">' + promptHtml(pr.readPrompt || '化簡後 F 係？') + '</p>';
         body += '<div class="mcq-opts" id="kmapReadOpts">';
         pr.readChoices.forEach((ch, i) => {
           body += '<label><input type="radio" name="kmapRead" value="' + i + '"><span>' + boolHtml(ch) + '</span></label>';
@@ -297,12 +315,12 @@
       }
       body += '</div>';
     } else if (pr.type === 'design') {
-      body += '<p class="try-note"><strong>情境：</strong>' + boolHtml(pr.scenario || pr.prompt || '') + '</p>';
+      body += '<p class="try-note"><strong>情境：</strong>' + promptHtml(pr.scenario || pr.prompt || '') + '</p>';
       (pr.steps || []).forEach((st, si) => {
         body += '<div class="design-step" data-step="' + si + '">';
         body += '<div class="step-lab">步驟 ' + (si + 1) + '</div>';
         if (st.kind === 'mcq') {
-          body += '<p class="try-note">' + boolHtml(st.prompt) + '</p>';
+          body += '<p class="try-note">' + promptHtml(st.prompt) + '</p>';
           body += '<div class="mcq-opts" id="designMcq' + si + '">';
           (st.choices || []).forEach((c, i) => {
             body += '<label><input type="radio" name="designMcq' + si + '" value="' + i + '"><span>' + boolHtml(c) + '</span></label>';
@@ -314,15 +332,31 @@
         body += '</div>';
       });
     }
+    return body;
+  }
 
-    const first = isFirstLivePractice(lesson.id);
+  function renderPractice(lesson) {
+    const raw = lesson.practice;
+    if (!raw) return '';
+    const bank = isPracticeBank(raw);
+    const pr = activePractice(lesson);
+    if (!pr) return '';
+    let body = '';
+    if (bank) {
+      body += '<p class="bank-pos">第 ' + (bankIndex + 1) + '／' + raw.questions.length + ' 題</p>';
+    }
+    body += renderPracticeBody(pr);
+
+    const atFirst = bank ? bankIndex <= 0 : isFirstLivePractice(lesson.id);
+    const atLast = bank && bankIndex >= raw.questions.length - 1;
     body += '<div class="btn-row">' +
       '<button type="button" class="btn btn-ghost" id="prevBtn"' +
-      (first ? ' disabled title="已經係第一題"' : '') + '>上一題</button>' +
+      (atFirst ? ' disabled title="已經係第一題"' : '') + '>上一題</button>' +
       '<button type="button" class="btn btn-ghost" id="hintBtn">提示</button>' +
       '<button type="button" class="btn btn-primary" id="checkBtn">檢查答案</button>' +
       '<button type="button" class="btn btn-ghost" id="retryBtn">重試</button>' +
-      '<button type="button" class="btn btn-secondary" id="nextBtn">下一題</button>' +
+      '<button type="button" class="btn btn-secondary" id="nextBtn"' +
+      (atLast ? ' disabled title="已經係最後一題"' : '') + '>下一題</button>' +
       '</div>';
     body += '<div class="status info" id="practiceStatus"></div>';
     body += '<div id="explainBox" style="display:none" class="tip"></div>';
@@ -384,7 +418,10 @@
   }
 
   function bindPractice(lesson) {
-    const pr = lesson.practice;
+    const raw = lesson.practice;
+    if (!raw) return;
+    const bank = isPracticeBank(raw);
+    const pr = activePractice(lesson);
     if (!pr) return;
     practiceChecked = false;
     const maxHints = ((lesson.support && lesson.support.guidedHints) || []).length || 3;
@@ -622,30 +659,70 @@
 
     $('retryBtn').addEventListener('click', () => {
       practiceChecked = false;
-      showLesson(lesson.id);
+      showLesson(lesson.id, bank ? { keepBank: true } : undefined);
     });
     const prevBtn = $('prevBtn');
-    if (prevBtn && !prevBtn.disabled) {
-      prevBtn.addEventListener('click', () => {
-        const prev = adjacentLive(lesson.id, -1);
-        if (prev) showLesson(prev.id);
-      });
+    const nextBtn = $('nextBtn');
+    if (bank) {
+      const total = raw.questions.length;
+      if (prevBtn && !prevBtn.disabled) {
+        prevBtn.addEventListener('click', () => {
+          if (bankIndex > 0) {
+            bankIndex -= 1;
+            showLesson(lesson.id, { keepBank: true });
+          }
+        });
+      }
+      if (nextBtn && !nextBtn.disabled) {
+        nextBtn.addEventListener('click', () => {
+          if (bankIndex < total - 1) {
+            bankIndex += 1;
+            showLesson(lesson.id, { keepBank: true });
+          }
+        });
+      }
+    } else {
+      if (prevBtn && !prevBtn.disabled) {
+        prevBtn.addEventListener('click', () => {
+          const prev = adjacentLive(lesson.id, -1);
+          if (prev) showLesson(prev.id);
+        });
+      }
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+          const next = adjacentLive(lesson.id, 1);
+          if (next) showLesson(next.id);
+          else showLesson('home');
+        });
+      }
     }
-    $('nextBtn').addEventListener('click', () => {
-      const next = adjacentLive(lesson.id, 1);
-      if (next) showLesson(next.id);
-      else showLesson('home');
-    });
   }
 
-  function showLesson(id) {
+  function showLesson(id, opts) {
+    const keepBank = !!(opts && opts.keepBank && id === currentId);
+    if (!keepBank) bankIndex = 0;
     currentId = id;
     hintStep = 0;
     practiceChecked = false;
     const lesson = findLesson(id);
     const mid = $('practiceBody');
-    renderNav();
+    if (!keepBank) renderNav();
     updateProgressTag();
+
+    if (keepBank && lesson && id !== 'home' && lesson.live && lesson.practice) {
+      const old = mid.querySelector('.tryit');
+      if (old) {
+        const holder = document.createElement('div');
+        holder.innerHTML = renderPractice(lesson);
+        const neu = holder.firstElementChild;
+        if (neu) old.replaceWith(neu);
+        bindPractice(lesson);
+        renderSupport(lesson);
+        const tryit = mid.querySelector('.tryit');
+        if (tryit && tryit.scrollIntoView) tryit.scrollIntoView({ block: 'nearest' });
+        return;
+      }
+    }
 
     if (!lesson) {
       mid.innerHTML = '<p>找不到課題。</p>';
