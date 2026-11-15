@@ -80,6 +80,16 @@ body.hide-right .panel.right { display: none; }
   line-height: 1.1;
   vertical-align: baseline;
 }
+.frac {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.05;
+  margin: 0 .18em;
+  font-weight: 700;
+}
+.frac .num, .frac .den { display: block; padding: 0 .32em; }
+.frac .num { border-bottom: 2px solid currentColor; }
 .tip { background: #fffbeb; border-left: 4px solid #f59e0b; padding: .55rem .75rem; margin: .65rem 0; font-size: .9rem; }
 .koujue { background: #ecfdf5; border-left: 4px solid #10b981; padding: .55rem .75rem; margin: .65rem 0; font-size: .92rem; font-weight: 600; }
 .gate-fig { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; margin: .7rem 0; }
@@ -232,14 +242,14 @@ body.hide-right .panel.right { display: none; }
   </aside>
 </div>
 <p class="credit-muted" id="creditLine">校本自製示意圖 · DAT</p>
-<p class="footer-note">離線可用 · 左目錄／中教學＋練習／右支援可摺疊 · 第 1–10 章上線（設計／人因／機械／結構／電子）· 自由選課</p>
+<p class="footer-note">離線可用 · 左目錄／中教學＋練習／右支援可摺疊 · 第 1–11 章上線（設計／人因／機械／結構／電子；第 11 章為機械系統與物理結構參考）· 自由選課</p>
 
 <div class="lightbox" id="imgLightbox" aria-hidden="true" role="dialog" aria-label="放大圖片">
   <button type="button" class="lb-close" id="btnCloseLightbox">關閉</button>
   <img id="lightboxImg" src="" alt="放大圖">
   <div class="lb-caption">撳空白處或按 Esc 關閉</div>
 </div>
-<script src="lessons-data.js?v=20261108e"></script>
-<script src="app.js?v=20261108e"></script>
+<script src="lessons-data.js?v=20261115c"></script>
+<script src="app.js?v=20261115c"></script>
 </body>
 </html>
