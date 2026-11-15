@@ -1,7 +1,7 @@
 {
-  "version": 9,
+  "version": 10,
   "titleZh": "中四設計與應用科技科自學 · 三欄（DAT）",
-  "uiNoteZh": "校本改寫 · SVG＋快龍卡通。含機械結構／元件、實體結構、S1 設計重點、電子控制。",
+  "uiNoteZh": "校本改寫 · SVG＋快龍卡通。含機械結構／元件、實體結構、S1 設計重點、電子控制。第 11 章為機械系統與物理結構參考總覽。",
   "chapters": [
     {
       "n": 1,
@@ -62,6 +62,12 @@
       "name": "電子控制",
       "live": true,
       "soon": false
+    },
+    {
+      "n": 11,
+      "name": "機械系統與物理結構（參考）",
+      "live": true,
+      "soon": false
     }
   ],
   "lessons": [
@@ -72,12 +78,12 @@
       "title": "中四設計與應用科技科學習地圖",
       "pill": "總覽",
       "live": true,
-      "teach": "<p>呢個係 DAT <strong>中四設計與應用科技科</strong>離線三欄自學：左目錄、中教學＋練習、右「定義 · 範例 · 提示」。</p>\n<div class=\"tip\"><strong>已上線：</strong>第 1–3 章 S1 設計（原理／過程／考量）· 第 4–10 章（人因／IPO／機械／元件／物料／實體結構／電子）。</div>\n<p><strong>設計線</strong>（第 1–3 章）：</p>\n<ul>\n  <li>第 1 章：點線面體、構成、組織原理、顏色、空間</li>\n  <li>第 2 章：設計過程、思考、隊工角色</li>\n  <li>第 3 章：摘要規格、解難、標準、演示同模型</li>\n</ul>\n<p><strong>系統線</strong>（第 5 章）：IPO、黑箱、開閉環。</p>\n<p><strong>機械線</strong>（第 6–7 章）：運動／機構 → 元件（緊固、啤令、KD）→ 單車綜合；第 9 章先入實體結構同力平衡概念。</p>\n<p><strong>人因／物料</strong>：第 4 章人因；第 8 章物料。</p>\n<p>建議路線：設計眼／項目流程 → 第 1–3 章；人因 → 第 4 章；系統 IPO → 第 5 章；機械／結構 → 第 6–7、9 章；物料 → 第 8 章；電子 → 第 10 章。</p>\n<p><strong>教師入口：</strong>學·教·評示範 → <span class=\"kw\">5.7</span>（<code>c3-lta-demo</code>）。</p>\n<p class=\"muted\">課文校本自寫（學校改寫）。示意為自畫 SVG／快龍卡通（無嵌入教材掃描原圖）。標「延展」為加深小點。</p>",
+      "teach": "<p>呢個係 DAT <strong>中四設計與應用科技科</strong>離線三欄自學：左目錄、中教學＋練習、右「定義 · 範例 · 提示」。</p>\n<div class=\"tip\"><strong>已上線：</strong>第 1–3 章 S1 設計（原理／過程／考量）· 第 4–10 章（人因／IPO／機械／元件／物料／實體結構／電子）· 第 11 章機械系統與物理結構（參考總覽）。</div>\n<p><strong>設計線</strong>（第 1–3 章）：</p>\n<ul>\n  <li>第 1 章：點線面體、構成、組織原理、顏色、空間</li>\n  <li>第 2 章：設計過程、思考、隊工角色</li>\n  <li>第 3 章：摘要規格、解難、標準、演示同模型</li>\n</ul>\n<p><strong>系統線</strong>（第 5 章）：IPO、黑箱、開閉環。</p>\n<p><strong>機械線</strong>（第 6–7 章）：運動／機構 → 元件（緊固、啤令、KD）→ 單車綜合；第 9 章先入實體結構同力平衡概念。第 11 章係參考總覽，串起運動、簡單機械同物理結構；唔會改 6.1–6.9 或 9.1–9.7 嘅編號。</p>\n<p><strong>人因／物料</strong>：第 4 章人因；第 8 章物料。</p>\n<p>建議路線：設計眼／項目流程 → 第 1–3 章；人因 → 第 4 章；系統 IPO → 第 5 章；機械／結構 → 第 6–7、9 章，想先睇全貌去第 11 章參考；物料 → 第 8 章；電子 → 第 10 章。</p>\n<p><strong>教師入口：</strong>學·教·評示範 → <span class=\"kw\">5.7</span>（<code>c3-lta-demo</code>）。</p>\n<p class=\"muted\">課文校本自寫（學校改寫）。示意為自畫 SVG／快龍卡通（無嵌入教材掃描原圖）。標「延展」為加深小點。</p>",
       "practice": null,
       "support": {
         "definition": "左欄揀課；中欄短講＋練習；右欄定義／範例／逐步解鎖引導提示。",
-        "example": "設計原理 → 第 1 章；機械 → 第 7–8 章；實體結構 → 第 9 章；人因 → 第 4 章。",
-        "tip": "地圖可自由選課。S1 設計線由第 1 章起。",
+        "example": "設計原理 → 第 1 章；機械 → 第 6–7 章；實體結構 → 第 9 章；參考總覽 → 第 11 章；人因 → 第 4 章。",
+        "tip": "地圖可自由選課。S1 設計線由第 1 章起。第 11 章係參考總覽，練深仍然去第 6、9 章。",
         "guidedHints": [
           "先睇右欄定義，再做中欄練習。",
           "答錯可撳「提示」解鎖引導問題。",
@@ -1721,7 +1727,7 @@
       "title": "滑輪、皮帶類型與螺旋",
       "pill": "機構",
       "live": true,
-      "teach": "<p><strong>定滑輪</strong>：主要改施力方向；理想情況唔省力。<strong>動滑輪／滑輪組</strong>：可提高機械利益（施力行程會更長）。</p>\n<p><strong>皮帶＋帶輪</strong>（延展）：</p>\n<ul>\n  <li><strong>平帶</strong>：結構簡單；可<strong>開口</strong>或<strong>交叉</strong>（交叉令兩輪反向轉）</li>\n  <li><strong>V 帶</strong>：入槽，摩擦較穩，短中心距常用</li>\n  <li><strong>同步／齒形帶</strong>：齒合、較準（精準機器概念）</li>\n  <li><strong>塔輪</strong>：多級直徑帶輪，換皮帶位置改速（鑽床概念）</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_belt_types.png\" alt=\"皮帶類型與塔輪（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/c4_belt_types.svg'\"></figure>\n<p><strong>螺旋</strong>：轉一轉換來軸向力或微調；常「省力但慢」（千斤頂概念）。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_pulley_screw.png\" alt=\"滑輪與螺旋（校本卡通）\"></figure><div class=\"tip\">問清楚：要改方向、換速、定微調升高？</div>",
+      "teach": "<p><strong>定滑輪</strong>：主要改施力方向；理想情況唔省力。<strong>動滑輪／滑輪組</strong>：可提高機械利益（施力行程會更長）。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_pulley_blocks_ma.png\" alt=\"滑輪組資料圖解：每座 1 至 4 個滑輪，垂直承重繩段 2、4、6、8，理想情況不計摩擦同滑輪自重\"></figure>\n<p>圖中 W 係負荷，角色同 6.6 嘅 L 一樣。</p>\n<p><strong>皮帶＋帶輪</strong>（延展）：</p>\n<ul>\n  <li><strong>平帶</strong>：結構簡單；可<strong>開口</strong>或<strong>交叉</strong>（交叉令兩輪反向轉）</li>\n  <li><strong>V 帶</strong>：入槽，摩擦較穩，短中心距常用</li>\n  <li><strong>同步／齒形帶</strong>：齒合、較準（精準機器概念）</li>\n  <li><strong>塔輪</strong>：多級直徑帶輪，換皮帶位置改速（鑽床概念）</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_belt_types.png\" alt=\"皮帶類型與塔輪（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/c4_belt_types.svg'\"></figure>\n<p><strong>螺旋</strong>：轉一轉換來軸向力或微調；常「省力但慢」（千斤頂概念）。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_pulley_screw.png\" alt=\"滑輪與螺旋（校本卡通）\"></figure><div class=\"tip\">問清楚：要改方向、換速、定微調升高？</div>",
       "practice": {
         "type": "mcq",
         "prompt": "平帶交叉安裝，相對開口安裝，最明顯分別係？",
@@ -1753,7 +1759,7 @@
       "title": "機械利益 MA 與速度比 VR",
       "pill": "MA／VR",
       "live": true,
-      "teach": "<p><strong>機械利益 MA</strong>＝負荷 L ÷ 施力 E（理想情況）。例：用 100 N 舉起 200 N → MA＝2；<strong>MA &gt; 1</strong> 表示省力。</p>\n<p><strong>速度比 VR</strong>＝施力距離 dE ÷ 負荷距離 dL。省力時通常 <strong>VR &gt; 1</strong>：施力要行多啲距離——呢個就係代價。若要<strong>加速</strong>（如單車高速檔概念），往往設計成 <strong>VR &lt; 1</strong>。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_ma_vr.png\" alt=\"機械利益與速度比（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/kuailong_lever_classes.png'\"></figure>\n<p><strong>齒輪例</strong>：速度比大致跟<strong>齒數比</strong>走。主動 20 齒、從動 60 齒 → 約 3:1——從動<strong>較慢</strong>、扭力感較大（力感↑、轉速↓）。</p>\n<div class=\"tip\"><strong>延展一句</strong>：定滑輪主要改方向，理想 VR≈1、唔省力；螺旋千斤頂 VR／MA 可以好大——升得重但轉好多圈（慢）。中四先記方向感，效率損失可後補。</div>\n<p>設計取捨：要省力定要快？先判斷目標，再揀槓桿力臂／齒輪齒數／滑輪或螺旋。</p>\n<p><strong>力的作功</strong> W＝F×s（單位 J）。<strong>效率</strong>＝輸出功÷輸入功×100%。計算時可把百分數化成小數（例如 80%＝0.8）再乘或除。</p>",
+      "teach": "<p><strong>機械利益 MA</strong>＝負荷 L ÷ 施力 E（理想情況）。例：用 100 N 舉起 200 N → MA＝2；<strong>MA &gt; 1</strong> 表示省力。</p>\n<p><strong>速度比 VR</strong>＝施力距離 dE ÷ 負荷距離 dL。省力時通常 <strong>VR &gt; 1</strong>：施力要行多啲距離——呢個就係代價。若要<strong>加速</strong>（如單車高速檔概念），往往設計成 <strong>VR &lt; 1</strong>。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_ma_vr.png\" alt=\"機械利益與速度比（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/kuailong_lever_classes.png'\"></figure>\n<figure class=\"fig\"><img src=\"assets/kuailong_pulley_blocks_ma.png\" alt=\"滑輪組資料圖解：每座 1 至 4 個滑輪，垂直承重繩段 2、4、6、8，理想情況不計摩擦同滑輪自重\"></figure>\n<p>圖中 W 係負荷，角色同呢課嘅 L 一樣。</p>\n<p><strong>齒輪例</strong>：速度比大致跟<strong>齒數比</strong>走。主動 20 齒、從動 60 齒 → 約 3:1——從動<strong>較慢</strong>、扭力感較大（力感↑、轉速↓）。</p>\n<div class=\"tip\"><strong>延展一句</strong>：定滑輪主要改方向，理想 VR≈1、唔省力；螺旋千斤頂 VR／MA 可以好大——升得重但轉好多圈（慢）。中四先記方向感，效率損失可後補。</div>\n<p>設計取捨：要省力定要快？先判斷目標，再揀槓桿力臂／齒輪齒數／滑輪或螺旋。</p>\n<p><strong>力的作功</strong> W＝F×s（單位 J）。<strong>效率</strong>＝輸出功÷輸入功×100%。計算時可把百分數化成小數（例如 80%＝0.8）再乘或除。</p>",
       "practice": {
         "type": "bank",
         "questions": [
@@ -3034,6 +3040,305 @@
           "輸出？"
         ],
         "fig": "assets/kuailong_sensors.png"
+      }
+    },
+    {
+      "id": "c11-motions",
+      "chapter": 11,
+      "nav": "11.1 四種運動",
+      "title": "參考總覽：四種基本運動",
+      "pill": "參考",
+      "live": true,
+      "teach": "<p>呢章係<strong>參考總覽</strong>：把機械系統同物理結構先串一次。第 6 章、第 9 章原有課題嘅編號同練習不變；每課尾會寫低左欄編號，方便跳去練深。</p>\n<p>你有冇諗過，單車鏈條點樣帶動後輪轉動？高樓喺強風入面，點解仍然企得住？機械系統係郁得嘅部分，物理結構係固定並承重嘅部分——好似科技嘅肌肉同骨骼。想做工程師，或者只係想知裝置點運作，都可以由呢度起步。</p>\n<div class=\"tip\">本章屬範疇二：科技原理。集中兩件事：事物點樣移動，同點樣保持穩固。</div>\n<p>研究機械之前，先叫得出四種基本運動。要用正式名稱：</p>\n<ul>\n  <li><strong>直線運動</strong> (Linear Motion)：沿單一方向直線移動。例子：切紙機刀片。</li>\n  <li><strong>往復運動</strong> (Reciprocating Motion)：沿直線來回移動。例子：縫紉機嘅針。</li>\n  <li><strong>旋轉運動</strong> (Rotary Motion)：圓周運動。例子：車輪，或者散熱風扇。</li>\n  <li><strong>擺動運動</strong> (Oscillating Motion)：沿弧線來回移動。例子：鐘擺，或者公園鞦韆。</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_ms_four_motions.png\" alt=\"四種運動：切紙機直線運動、縫紉機針往復運動、散熱風扇旋轉運動、公園鞦韆擺動運動\"></figure>\n<div class=\"koujue\">小提示：大多數機械系統，就係要把一種運動轉換成另一種。</div>\n<p>想做運動類型練習：左欄 <span class=\"kw\">6.7 運動類型</span>。</p>",
+      "practice": {
+        "type": "match",
+        "prompt": "將例子配對到四種基本運動：",
+        "items": [
+          {
+            "text": "切紙機刀片沿直線移動"
+          },
+          {
+            "text": "縫紉機的針沿直線來回"
+          },
+          {
+            "text": "散熱風扇圓周轉動"
+          },
+          {
+            "text": "公園鞦韆沿弧線來回"
+          }
+        ],
+        "options": [
+          "直線運動 (Linear Motion)",
+          "往復運動 (Reciprocating Motion)",
+          "旋轉運動 (Rotary Motion)",
+          "擺動運動 (Oscillating Motion)"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "explain": "切紙機係單向直線；縫紉機針係直線來回，叫往復；風扇繞圈叫旋轉；鞦韆沿弧線來回叫擺動。"
+      },
+      "support": {
+        "definition": "機械系統郁；物理結構固定並承重。四種運動：直線 Linear、往復 Reciprocating、旋轉 Rotary、擺動 Oscillating。",
+        "example": "切紙機→直線；縫紉機針→往復；散熱風扇→旋轉；公園鞦韆→擺動。",
+        "tip": "唔好只講「上下移動」或「圓圈轉動」，要用往復、旋轉呢啲術語。",
+        "guidedHints": [
+          "刀片沿一條直線走，係來回定單向？",
+          "針同風扇，邊個沿直線來回、邊個繞圈？",
+          "鞦韆沿弧線來回，正式名稱係邊個？"
+        ],
+        "fig": "assets/kuailong_ms_four_motions.png"
+      }
+    },
+    {
+      "id": "c11-lever-link",
+      "chapter": 11,
+      "nav": "11.2 槓桿與連桿",
+      "title": "簡單機械：槓桿與連桿",
+      "pill": "機構",
+      "live": true,
+      "teach": "<p>簡單機械係系統嘅組件，用來改變運動方式、力嘅大小或方向。</p>\n<p><strong>槓桿</strong> (Lever) 係一根繞住固定點轉動嘅硬棒。呢個固定點叫<strong>支點</strong> (Fulcrum)。槓桿可以幫我哋用較小嘅施力，抬起沉重嘅負荷。</p>\n<ul>\n  <li><strong>第一類</strong>：支點在中間。例子：剪刀、搖搖板。</li>\n  <li><strong>第二類</strong>：負荷在中間。例子：手推單輪車、胡桃鉗。</li>\n  <li><strong>第三類</strong>：施力點在中間。例子：鑷子、魚竿。</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_lever_classes.png\" alt=\"槓桿三類：支點 Fulcrum、負荷或施力點在中間\"></figure>\n<p><strong>連桿機構</strong> (Linkages) 由多根桿件連接而成，用來傳遞運動或力。常見嘅係四連桿機構，用喺壓力鉗或摺疊傘，可以改變推拉嘅力量方向。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_linkages.png\" alt=\"連桿機構：桿件連接，傳遞運動或力\" onerror=\"this.onerror=null;this.src='assets/c4_linkages.svg'\"></figure>\n<figure class=\"fig\"><img src=\"assets/kuailong_linkage.png\" alt=\"連桿傳遞運動示意\"></figure>\n<p>想做練習：左欄 <span class=\"kw\">6.2 槓桿三類</span>、<span class=\"kw\">6.3 連杆凸輪曲柄</span>（連桿細類同後面嘅凸輪、滑塊曲柄）。</p>",
+      "practice": {
+        "type": "match",
+        "prompt": "槓桿三類：邊個在中間？",
+        "items": [
+          {
+            "text": "剪刀、搖搖板"
+          },
+          {
+            "text": "手推單輪車、胡桃鉗"
+          },
+          {
+            "text": "鑷子、魚竿"
+          }
+        ],
+        "options": [
+          "第一類：支點 (Fulcrum) 在中間",
+          "第二類：負荷在中間",
+          "第三類：施力點在中間"
+        ],
+        "answers": [
+          0,
+          1,
+          2
+        ],
+        "explain": "第一類支點在中（剪刀、搖搖板）；第二類負荷在中（手推單輪車、胡桃鉗）；第三類施力點在中（鑷子、魚竿）。"
+      },
+      "support": {
+        "definition": "槓桿繞支點 (Fulcrum) 轉。分類睇邊個在中間：一支點、二負荷、三施力。連桿用桿件傳運動或力，亦可改推拉方向。",
+        "example": "剪刀→第一類；手推單輪車→第二類；鑷子→第三類。四連桿見於壓力鉗、摺疊傘。",
+        "tip": "先標支點、負荷、施力，再睇邊個坐中間。",
+        "guidedHints": [
+          "分類係睇邊個在中間？",
+          "剪刀同搖搖板，中間係支點定施力？",
+          "鑷子施力喺中間，屬第幾類？"
+        ],
+        "fig": "assets/kuailong_lever_classes.png"
+      }
+    },
+    {
+      "id": "c11-convert",
+      "chapter": 11,
+      "nav": "11.3 轉換機構",
+      "title": "轉換機構：凸輪、曲柄、齒條、棘輪",
+      "pill": "轉換",
+      "live": true,
+      "teach": "<p>呢幾種機構專門改變運動方式，辨認題好常見。</p>\n<ul>\n  <li><strong>凸輪與從動件</strong> (Cam and Follower)：將旋轉運動轉換為往復運動（或擺動運動）。凸輪一轉，從動件跟住上下移動。</li>\n  <li><strong>滑塊曲柄</strong> (Slider Crank)：將旋轉運動轉換為往復運動。例子：汽車引擎入面嘅活塞。</li>\n  <li><strong>齒條與小齒輪</strong> (Rack and Pinion)：將旋轉運動轉換為直線運動。汽車方向盤就係咁帶動車輪左右轉向。</li>\n  <li><strong>棘輪與棘爪</strong> (Ratchet and Pawl)：只允許單向運動，防止輪子倒轉。例子：尼龍紮帶、棘輪扳手。</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_cam_types.png\" alt=\"凸輪類型：旋轉輸入，從動件作往復或擺動\" onerror=\"this.onerror=null;this.src='assets/c4_cam_types.svg'\"></figure>\n<figure class=\"fig\"><img src=\"assets/kuailong_cam_mechanism.png\" alt=\"凸輪與從動件\"></figure>\n<figure class=\"fig\"><img src=\"assets/kuailong_slider_crank.png\" alt=\"滑塊曲柄：旋轉轉為往復，例如引擎活塞\" onerror=\"this.onerror=null;this.src='assets/c4_slider_crank.svg'\"></figure>\n<figure class=\"fig\"><img src=\"assets/kuailong_gear_types.png\" alt=\"齒輪類型：當中齒條與小齒輪把旋轉轉為直線\" onerror=\"this.onerror=null;this.src='assets/c4_gear_types.svg'\"></figure>\n<figure class=\"fig\"><img src=\"assets/kuailong_ratchet_pawl.png\" alt=\"棘輪與棘爪：只允許單向運動\" onerror=\"this.onerror=null;this.src='assets/c4_ratchet.svg'\"></figure>\n<p>想做練習：左欄 <span class=\"kw\">6.3 連杆凸輪曲柄</span>、<span class=\"kw\">6.4 齒輪皮帶鏈</span>（齒條與小齒輪）、<span class=\"kw\">6.8 棘輪制動離合</span>。</p>",
+      "practice": {
+        "type": "match",
+        "prompt": "辨認轉換機構同佢改變運動嘅方式：",
+        "items": [
+          {
+            "text": "凸輪與從動件 (Cam and Follower)"
+          },
+          {
+            "text": "滑塊曲柄 (Slider Crank)"
+          },
+          {
+            "text": "齒條與小齒輪 (Rack and Pinion)"
+          },
+          {
+            "text": "棘輪與棘爪 (Ratchet and Pawl)"
+          }
+        ],
+        "options": [
+          "旋轉 → 往復或擺動（從動件跟住上下）",
+          "旋轉 → 往復（汽車引擎活塞）",
+          "旋轉 → 直線（方向盤帶動車輪轉向）",
+          "只允許單向，防止倒轉（紮帶／棘輪扳手）"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "explain": "凸輪將旋轉變成往復或擺動；滑塊曲柄將旋轉變成往復（活塞）；齒條與小齒輪將旋轉變成直線；棘輪與棘爪只准單向。"
+      },
+      "support": {
+        "definition": "轉換機構改變運動類型：凸輪、滑塊曲柄、齒條與小齒輪、棘輪與棘爪。",
+        "example": "活塞→滑塊曲柄；方向盤→齒條與小齒輪；紮帶→棘輪與棘爪。",
+        "tip": "先寫低輸入運動同輸出運動，再對機構名。",
+        "guidedHints": [
+          "邊個係從動件跟住凸輪上下？",
+          "活塞同方向盤，輸出係直線來回定直線滑動？",
+          "邊個只准一個方向，防止倒轉？"
+        ],
+        "fig": "assets/kuailong_cam_mechanism.png"
+      }
+    },
+    {
+      "id": "c11-drive",
+      "chapter": 11,
+      "nav": "11.4 傳動與滑輪組",
+      "title": "傳動系統與滑輪組",
+      "pill": "傳動",
+      "live": true,
+      "teach": "<p>要將運動由一根軸傳到另一根軸，就用傳動系統。</p>\n<ul>\n  <li><strong>正齒輪</strong> (Spur Gears)：最常見，喺平行軸之間傳遞運動。</li>\n  <li><strong>傘齒輪</strong> (Bevel Gears)：齒面切成斜角，容許以 90° 傳遞運動。例子：手動電鑽。</li>\n  <li><strong>蝸輪與蝸桿</strong> (Worm and Worm Wheel)：用嚟大幅度減速。蝸桿形似螺絲。優點係自鎖——蝸輪無法帶動蝸桿轉動。</li>\n  <li><strong>皮帶與皮帶輪</strong> (Belts and Pulleys)：靠摩擦力做長距離傳動，比齒輪靜。</li>\n  <li><strong>鏈輪與鏈條</strong> (Sprockets and Chains)：好似單車。同皮帶唔同，唔會打滑，因為鏈輪嘅齒會緊扣鏈條。</li>\n</ul>\n<div class=\"koujue\">核心：機構可以按設計需要，改變運動嘅類型、方向同速度。</div>\n<figure class=\"fig\"><img src=\"assets/kuailong_gear_types.png\" alt=\"正齒輪、傘齒輪、蝸輪與蝸桿、齒條與小齒輪\" onerror=\"this.onerror=null;this.src='assets/c4_gear_types.svg'\"></figure>\n<figure class=\"fig\"><img src=\"assets/kuailong_gear_belt_chain.png\" alt=\"齒輪、皮帶與鏈條傳動對比\"></figure>\n<p><strong>滑輪組</strong>可以省力。理想情況：不計摩擦、不計滑輪自重。單／雙／三／四滑輪組，係指<strong>每座</strong>有 1／2／3／4 個滑輪。MA 等於兩座之間垂直承重繩段嘅數目。</p>\n<ul>\n  <li>單滑輪組（每座 1 個滑輪）：承重繩段 2，MA＝2，E＝<span class=\"frac\"><span class=\"num\">W</span><span class=\"den\">2</span></span></li>\n  <li>雙滑輪組（每座 2 個滑輪）：承重繩段 4，MA＝4，E＝<span class=\"frac\"><span class=\"num\">W</span><span class=\"den\">4</span></span></li>\n  <li>三滑輪組（每座 3 個滑輪）：承重繩段 6，MA＝6，E＝<span class=\"frac\"><span class=\"num\">W</span><span class=\"den\">6</span></span></li>\n  <li>四滑輪組（每座 4 個滑輪）：承重繩段 8，MA＝8，E＝<span class=\"frac\"><span class=\"num\">W</span><span class=\"den\">8</span></span></li>\n</ul>\n<p>只數兩座之間垂直嘅承重繩段（圖上①②③…）。由上座向下拉出嘅自由端只改變方向，唔編號、唔算入承重。固定端扣喺上座，自由端由上座拉出。</p>\n<p>一般寫法：E＝<span class=\"frac\"><span class=\"num\">W</span><span class=\"den\">MA</span></span>，MA 就係承重繩段數目。</p>\n<p>圖中 W 係負荷，角色同 6.6 嘅 L 一樣。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_pulley_blocks_ma.png\" alt=\"滑輪組資料圖解：每座 1 至 4 個滑輪，垂直承重繩段 2、4、6、8，理想情況不計摩擦同滑輪自重\"></figure>\n<p>想做練習：左欄 <span class=\"kw\">6.4 齒輪皮帶鏈</span>、<span class=\"kw\">6.5 滑輪皮帶螺旋</span>、<span class=\"kw\">6.6 機械利益與速度比</span>。</p>",
+      "practice": {
+        "type": "mcq",
+        "prompt": "手動電鑽要將運動以 90° 傳到另一軸，較應該用邊種？",
+        "choices": [
+          "傘齒輪 (Bevel Gears)",
+          "蝸輪與蝸桿（大幅度減速，並可自鎖）",
+          "皮帶與皮帶輪（靠摩擦，較靜，適合長距離）",
+          "鏈輪與鏈條（齒緊扣鏈條，不會打滑）"
+        ],
+        "answer": 0,
+        "explain": "傘齒輪齒面斜角，容許以 90° 傳遞運動，手動電鑽就係例子。蝸輪與蝸桿先係大幅度減速同自鎖。"
+      },
+      "support": {
+        "definition": "正齒輪傳平行軸；傘齒輪改 90°；蝸輪與蝸桿大幅減速並可自鎖；皮帶靠摩擦、較靜；鏈條唔會打滑。滑輪組理想 MA＝垂直承重繩段數目。",
+        "example": "手動電鑽→傘齒輪；單車→鏈輪與鏈條。單滑輪組每座 1 個滑輪，承重繩段 2，MA＝2。",
+        "tip": "自由端向下拉只改方向，唔計入承重。圖中 W 同 6.6 嘅 L 都係負荷。",
+        "guidedHints": [
+          "手動電鑽要轉 90°，定要大幅減速並鎖住？",
+          "傘齒輪同蝸輪蝸桿，邊個先係改方向 90°？",
+          "數 MA 時，向下拉嘅自由端計唔計？"
+        ],
+        "fig": "assets/kuailong_pulley_blocks_ma.png"
+      }
+    },
+    {
+      "id": "c11-forces",
+      "chapter": 11,
+      "nav": "11.5 五種力",
+      "title": "五種力、應力與應變",
+      "pill": "力學",
+      "live": true,
+      "teach": "<p><strong>結構</strong>係任何旨在承載負荷嘅物件。設計與應用科技會睇結構點樣處理力，同埋點樣保持穩定。</p>\n<p>結構受載時會產生內部應力。可以將呢啲力想像成材料嘅「感受」：</p>\n<ul>\n  <li><strong>拉力</strong> (Tension)：拉伸材料。例子：結他弦。</li>\n  <li><strong>壓力</strong> (Compression)：擠壓材料。例子：椅腳。</li>\n  <li><strong>彎曲</strong> (Bending)：成角度施加嘅力，令材料彎曲。例子：放滿重書嘅書架。</li>\n  <li><strong>剪力</strong> (Shear)：喺一個點上向相反方向作用。例子：剪刀剪紙。</li>\n  <li><strong>扭力</strong> (Torsion)：扭轉嘅力。例子：扭動螺絲批。</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_ms_five_forces.png\" alt=\"五種力：結他弦拉力、椅腳壓力、書架彎曲、剪刀剪力、螺絲批扭力\"></figure>\n<p><strong>應力</strong> (Stress) 係單位面積所受嘅內力。<strong>應變</strong> (Strain) 係由應力引起嘅物理形變，即係形狀改變。</p>\n<p>同一力之下，截面積較細嗰邊，應力較大。棒被拉伸之後會變長，並且略為變幼——形狀變咗，就係應變。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_ms_stress_strain.png\" alt=\"應力：同一力下截面積較小則應力較大。應變：拉伸後棒變長、略變幼\"></figure>\n<p>想做練習：左欄 <span class=\"kw\">9.3 力與效果</span>、<span class=\"kw\">9.4 力三角形平衡</span>、<span class=\"kw\">9.5 拉、壓與彎</span>。</p>",
+      "practice": {
+        "type": "match",
+        "prompt": "將例子配對到五種力：",
+        "items": [
+          {
+            "text": "結他弦被拉緊"
+          },
+          {
+            "text": "椅腳被向下擠壓"
+          },
+          {
+            "text": "放滿重書的書架向下彎"
+          },
+          {
+            "text": "剪刀剪紙，兩刃反向錯開"
+          },
+          {
+            "text": "扭動螺絲批，桿件被扭轉"
+          }
+        ],
+        "options": [
+          "拉力 (Tension)",
+          "壓力 (Compression)",
+          "彎曲 (Bending)",
+          "剪力 (Shear)",
+          "扭力 (Torsion)"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "explain": "拉開係拉力；擠壓係壓力；書架被重書壓到彎係彎曲；剪刀兩刃反向錯開係剪力；螺絲批扭轉桿件係扭力。"
+      },
+      "support": {
+        "definition": "五種力：拉力 Tension、壓力 Compression、彎曲 Bending、剪力 Shear、扭力 Torsion。應力係單位面積所受內力；應變係由此引起嘅形狀改變。",
+        "example": "結他弦→拉力；椅腳→壓力；重書書架→彎曲；剪刀剪紙→剪力；螺絲批→扭力。",
+        "tip": "拉力係拉開，壓力係擠壓。同一力，截面積細，應力大。",
+        "guidedHints": [
+          "結他弦係被拉長，定被壓短？",
+          "椅腳同書架，邊個係向下擠、邊個係彎？",
+          "剪刀兩刃反向錯開，同扭動螺絲批，邊個先係扭力？"
+        ],
+        "fig": "assets/kuailong_ms_five_forces.png"
+      }
+    },
+    {
+      "id": "c11-stability",
+      "chapter": 11,
+      "nav": "11.6 穩定與應用",
+      "title": "穩定性、設計應用與總結",
+      "pill": "穩定",
+      "live": true,
+      "teach": "<p>如果一件產品唔容易翻倒，佢就係穩定。設計師主要睇兩點：</p>\n<ol>\n  <li><strong>重心</strong> (Center of Gravity, CoG)：物體重量集中嘅點。重心較低，物體更穩定。例子：賽車車身低。</li>\n  <li><strong>底座面積</strong> (Base Area)：底座較闊，物體更穩定。例子：三腳架。</li>\n</ol>\n<p>當物體所受嘅所有力都達到平衡，並且保持靜止，呢個狀態就叫<strong>平衡</strong> (Equilibrium)。</p>\n<p>設計師會用<strong>三角化構架</strong> (Triangulation)：把結構組成三角形，增加剛性。所以橋樑同起重機會見到好多三角形。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_ms_stability.png\" alt=\"穩定性：低重心、闊底座、三角化構架 Triangulation，以及平衡 Equilibrium\"></figure>\n<p><strong>設計應用</strong>：做設計題時，可以先問自己三句。</p>\n<ul>\n  <li>而家有嘅運動（輸入）係咩？需要嘅運動（輸出）係咩？例如：有旋轉嘅馬達，但想要滑動嘅抽屜 → 齒條與小齒輪。</li>\n  <li>需唔需要安全機制？例如：即使停電，升降機都要留喺原位 → 棘輪與棘爪。</li>\n  <li>夠唔夠堅固？例如：橫樑彎得太厲害 → 加支柱，形成三角形構架。</li>\n</ul>\n<p><strong>常見錯誤</strong></p>\n<ul>\n  <li>齒輪：傘齒輪改變 90° 方向；蝸輪與蝸桿先係大幅度減速同鎖定。</li>\n  <li>運動名稱：唔好只講「上下移動」，要用往復運動；唔好只講「圓圈轉動」，要用旋轉運動。</li>\n  <li>受力方向：拉力係拉開，壓力係擠壓。結構圖入面好易將兩者調轉。</li>\n</ul>\n<p><strong>總結</strong>：機械系統用凸輪、齒輪、連桿等機構控制運動。物理結構要平衡拉力、壓力等力量，並且靠低重心同闊底座保持穩定。</p>\n<p>想做練習：左欄 <span class=\"kw\">9.1 結構用途</span>（三角形穩定）、<span class=\"kw\">9.3 力與效果</span>、<span class=\"kw\">9.4 力三角形平衡</span>、<span class=\"kw\">9.5 拉、壓與彎</span>。設計例子亦可回頭做 <span class=\"kw\">6.4 齒輪皮帶鏈</span> 同 <span class=\"kw\">6.8 棘輪制動離合</span>。</p>",
+      "practice": {
+        "type": "fill",
+        "prompt": "依本章填空：要更穩定，重心要較______；底座要較______。所有力平衡並保持靜止，叫做______。",
+        "fields": [
+          {
+            "label": "重心",
+            "answer": "低",
+            "accepted": [
+              "低",
+              "較低",
+              "低啲",
+              "低重心"
+            ],
+            "placeholder": "低"
+          },
+          {
+            "label": "底座",
+            "answer": "闊",
+            "accepted": [
+              "闊",
+              "較闊",
+              "寬",
+              "較寬",
+              "闊啲",
+              "寬闊"
+            ],
+            "placeholder": "闊"
+          },
+          {
+            "label": "狀態",
+            "answer": "平衡",
+            "accepted": [
+              "平衡",
+              "平衡 (equilibrium)",
+              "equilibrium",
+              "平衡狀態"
+            ],
+            "placeholder": "平衡"
+          }
+        ],
+        "explain": "重心較低（賽車車身低）同底座較闊（三腳架）都會更穩定。所有力平衡而且保持靜止，就係平衡 (Equilibrium)。",
+        "note": "重心填「低」；底座填「闊」；狀態填「平衡」。"
+      },
+      "support": {
+        "definition": "穩定睇低重心 (CoG) 同闊底座。所有力平衡並保持靜止叫平衡 (Equilibrium)。三角化構架 (Triangulation) 用三角形增加剛性。",
+        "example": "賽車車身低→低重心；三腳架→闊底座；橋樑同起重機用三角形。旋轉馬達要滑動抽屜→齒條與小齒輪。",
+        "tip": "傘齒輪改 90°；蝸輪蝸桿先係大幅減速同鎖定。上下移動要講往復，圓圈轉動要講旋轉。",
+        "guidedHints": [
+          "賽車點解車身做得低？",
+          "三腳架穩，係因為底座闊定因為好高？",
+          "所有力抵消而且保持靜止，叫咩？"
+        ],
+        "fig": "assets/kuailong_ms_stability.png"
       }
     }
   ]
