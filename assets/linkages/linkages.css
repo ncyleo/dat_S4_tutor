@@ -1,0 +1,60 @@
+/* 連桿示意動畫共用樣式。離線、無外連字型。 */
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #fff;
+  color: #0f172a;
+  font-family: "Microsoft JhengHei", "PingFang TC", "Noto Sans TC", "WenQuanYi Micro Hei", "Droid Sans Fallback", system-ui, sans-serif;
+}
+.sim {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  user-select: none;
+}
+canvas {
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+  display: block;
+  background: #fff;
+}
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem .4rem;
+  align-items: center;
+  padding: .38rem .55rem;
+  border-bottom: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+.name {
+  font-weight: 800;
+  font-size: .84rem;
+  margin-right: .15rem;
+}
+.status {
+  flex: 1 1 8rem;
+  font-size: .74rem;
+  line-height: 1.35;
+  color: #334155;
+}
+button {
+  appearance: none;
+  border: 1px solid #94a3b8;
+  background: #fff;
+  color: #0f172a;
+  border-radius: 8px;
+  padding: .28rem .62rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: .76rem;
+  font-family: inherit;
+}
+button:hover { border-color: #1d4ed8; }
+button[aria-pressed="true"] {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+  color: #fff;
+}

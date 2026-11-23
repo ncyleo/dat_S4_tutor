@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 11,
   "titleZh": "中四設計與應用科技科自學 · 三欄（DAT）",
   "uiNoteZh": "校本改寫 · SVG＋快龍卡通。含機械結構／元件、實體結構、S1 設計重點、電子控制。",
   "chapters": [
@@ -72,7 +72,7 @@
       "title": "中四設計與應用科技科學習地圖",
       "pill": "總覽",
       "live": true,
-      "teach": "<p>呢個係 DAT <strong>中四設計與應用科技科</strong>離線三欄自學：左目錄、中教學＋練習、右「定義 · 範例 · 提示」。</p>\n<div class=\"tip\"><strong>已上線：</strong>第 1–3 章 S1 設計（原理／過程／考量）· 第 4–10 章（人因／IPO／機械／元件／物料／實體結構／電子）。</div>\n<p><strong>設計線</strong>（第 1–3 章）：</p>\n<ul>\n  <li>第 1 章：點線面體、構成、組織原理、顏色、空間</li>\n  <li>第 2 章：設計過程、思考、隊工角色</li>\n  <li>第 3 章：摘要規格、解難、標準、演示同模型</li>\n</ul>\n<p><strong>系統線</strong>（第 5 章）：IPO、黑箱、開閉環。</p>\n<p><strong>機械線</strong>（第 6–7 章）：運動／機構 → 元件（緊固、啤令、KD）→ 單車綜合；第 9 章先入實體結構同力平衡概念。</p>\n<p><strong>人因／物料</strong>：第 4 章人因；第 8 章物料。</p>\n<p>建議路線：設計眼／項目流程 → 第 1–3 章；人因 → 第 4 章；系統 IPO → 第 5 章；機械／結構 → 第 6–7、9 章；物料 → 第 8 章；電子 → 第 10 章。</p>\n<p><strong>教師入口：</strong>學·教·評示範 → <span class=\"kw\">5.7</span>（<code>c3-lta-demo</code>）。</p>\n<p class=\"muted\">課文校本自寫（學校改寫）。示意為自畫 SVG／快龍卡通（無嵌入教材掃描原圖）。標「延展」為加深小點。</p>",
+      "teach": "<p>呢個係 DAT <strong>中四設計與應用科技科</strong>離線三欄自學：左目錄、中教學＋練習、右「定義 · 範例 · 提示」。</p>\n<div class=\"tip\"><strong>已上線：</strong>第 1–3 章 S1 設計（原理／過程／考量）· 第 4–10 章（人因／IPO／機械／元件／物料／實體結構／電子）。</div>\n<p><strong>設計線</strong>（第 1–3 章）：</p>\n<ul>\n  <li>第 1 章：點線面體、構成、組織原理、顏色、空間</li>\n  <li>第 2 章：設計過程、思考、隊工角色</li>\n  <li>第 3 章：摘要規格、解難、標準、演示同模型</li>\n</ul>\n<p><strong>系統線</strong>（第 5 章）：IPO、黑箱、開閉環。</p>\n<p><strong>機械線</strong>（第 6–7 章）：運動／機構（連桿動畫喺 6.3b–6.3d）→ 元件（緊固、啤令、KD）→ 單車綜合；第 9 章先入實體結構同力平衡概念。</p>\n<p><strong>人因／物料</strong>：第 4 章人因；第 8 章物料。</p>\n<p>建議路線：設計眼／項目流程 → 第 1–3 章；人因 → 第 4 章；系統 IPO → 第 5 章；機械／結構 → 第 6–7、9 章；物料 → 第 8 章；電子 → 第 10 章。</p>\n<p><strong>教師入口：</strong>學·教·評示範 → <span class=\"kw\">5.7</span>（<code>c3-lta-demo</code>）。</p>\n<p class=\"muted\">課文校本自寫（學校改寫）。示意為自畫 SVG／快龍卡通（無嵌入教材掃描原圖）。標「延展」為加深小點。</p>",
       "practice": null,
       "support": {
         "definition": "左欄揀課；中欄短講＋練習；右欄定義／範例／逐步解鎖引導提示。",
@@ -1657,7 +1657,7 @@
       "title": "連杆細類、凸輪與滑塊曲柄",
       "pill": "機構",
       "live": true,
-      "teach": "<p><strong>連杆</strong>：剛性杆件鉸接，傳運動、改方向／幅度。常見細類：</p>\n<ul>\n  <li><strong>平行運動</strong>：輸出大致平行推進</li>\n  <li><strong>反向運動</strong>：輸出方向相反（支點位置影響幅度）</li>\n  <li><strong>推拉式</strong>：一組推／拉帶動另一組</li>\n  <li><strong>均性</strong>：一輸入分兩輸出（概念）</li>\n  <li><strong>直角／鐘式曲柄</strong>：改運動角度（如腳踏垃圾桶概念）</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_linkages.png\" alt=\"連杆細類（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/c4_linkages.svg'\"></figure>\n<p><strong>凸輪＋隨動件</strong>：旋轉 → 往復／預定規律。類型濃縮：</p>\n<ul>\n  <li><strong>梨形</strong>：內燃機氣閥概念</li>\n  <li><strong>心形</strong>：隨動件較等速軸向往復（衣車卷線概念）</li>\n  <li><strong>圓柱</strong>：側面槽導引（織造／衣車概念）</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_cam_types.png\" alt=\"凸輪類型（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/c4_cam_types.svg'\"></figure><figure class=\"fig\"><img src=\"assets/kuailong_cam_mechanism.png\" alt=\"凸輪與隨動件（校本卡通）\"></figure>\n<p><strong>滑塊曲柄</strong>：曲柄＋連杆＋滑塊，<strong>旋轉 ↔ 直線往復</strong>（引擎活塞／電動鋸概念）。滑塊行程約等於兩倍曲柄半徑（定性記住即可）。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_slider_crank.png\" alt=\"滑塊曲柄（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/c4_slider_crank.svg'\"></figure><div class=\"tip\">下方連杆卡通可對照平行／鉸接意象。</div><figure class=\"fig\"><img src=\"assets/kuailong_linkage.png\" alt=\"連杆機構示意（校本卡通）\"></figure>",
+      "teach": "<p><strong>連杆</strong>：剛性杆件鉸接，傳運動、改方向／幅度。常見細類：</p>\n<ul>\n  <li><strong>平行運動</strong>：輸出大致平行推進</li>\n  <li><strong>反向運動</strong>：輸出方向相反（支點位置影響幅度）</li>\n  <li><strong>推拉式</strong>：一組推／拉帶動另一組</li>\n  <li><strong>均性</strong>：一輸入分兩輸出（概念）</li>\n  <li><strong>直角／鐘式曲柄</strong>：改運動角度（如腳踏垃圾桶概念）</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_linkages.png\" alt=\"連杆細類（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/c4_linkages.svg'\"></figure>\n<p><strong>凸輪＋隨動件</strong>：旋轉 → 往復／預定規律。類型濃縮：</p>\n<ul>\n  <li><strong>梨形</strong>：內燃機氣閥概念</li>\n  <li><strong>心形</strong>：隨動件較等速軸向往復（衣車卷線概念）</li>\n  <li><strong>圓柱</strong>：側面槽導引（織造／衣車概念）</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_cam_types.png\" alt=\"凸輪類型（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/c4_cam_types.svg'\"></figure><figure class=\"fig\"><img src=\"assets/kuailong_cam_mechanism.png\" alt=\"凸輪與隨動件（校本卡通）\"></figure>\n<p><strong>滑塊曲柄</strong>：曲柄＋連杆＋滑塊，<strong>旋轉 ↔ 直線往復</strong>（引擎活塞／電動鋸概念）。滑塊行程約等於兩倍曲柄半徑（定性記住即可）。</p>\n<figure class=\"fig\"><img src=\"assets/kuailong_slider_crank.png\" alt=\"滑塊曲柄（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/c4_slider_crank.svg'\"></figure><div class=\"tip\">下方連杆卡通可對照平行／鉸接意象。</div><figure class=\"fig\"><img src=\"assets/kuailong_linkage.png\" alt=\"連杆機構示意（校本卡通）\"></figure>\n<p>想睇各類連桿點郁，去 <strong>6.3b</strong>、<strong>6.3c</strong>、<strong>6.3d</strong>。</p>",
       "practice": {
         "type": "mcq",
         "prompt": "汽車活塞把上下往復變成曲軸旋轉，屬邊類？",
@@ -1680,6 +1680,186 @@
           "直角連杆改咩？"
         ],
         "fig": "assets/kuailong_cam_mechanism.png"
+      }
+    },
+    {
+      "id": "c4-four-bar-anim",
+      "chapter": 6,
+      "nav": "6.3b 四連桿動畫",
+      "title": "四連桿：曲柄搖桿、雙曲柄、雙搖桿",
+      "pill": "動畫",
+      "live": true,
+      "teach": "<p>四連桿有四條鉸接桿：<strong>固定桿</strong> AD（機架）、<strong>曲柄</strong>（可以整圈轉）、<strong>搖桿</strong>（只來回擺）、<strong>連接桿</strong> BC（又叫浮桿，兩邊都唔固定）。邊條最短，就決定成副係邊一類。構成可以記一句：最短桿加隔離其中一條，要短過其餘兩條加埋——唔使代數字計。</p>\n<p><strong>曲柄搖桿</strong>：最短係曲柄 AB。AB 轉足一圈，對面 CD 只係擺。腳踏縫紉機、拉坯機、踩單車踏板帶動車輪，都有呢種意象。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/crank-rocker.html\" title=\"曲柄搖桿機構動畫\" loading=\"lazy\"></iframe>\n<p><strong>雙曲柄</strong>：最短係固定桿 AD。AB 同 CD 都轉得足一圈，方向相同。插床急回就用類似想法，去程同回程快慢唔同。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/double-crank.html\" title=\"雙曲柄機構動畫\" loading=\"lazy\"></iframe>\n<p><strong>雙搖桿</strong>：最短係連接桿 BC。兩條側桿都只係擺，輸入要用其中一條搖桿來回，唔係整圈曲柄。風扇搖頭、汽車雨刷係例子。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/double-rocker.html\" title=\"雙搖桿機構動畫\" loading=\"lazy\"></iframe>\n<div class=\"tip\"><strong>死點</strong>：用搖桿做主動，擺到同從動曲柄拉成一直線，就過唔到。要靠飛輪慣性，或者兩組機構錯開相位。用曲柄做主動，一般冇呢個問題。</div>",
+      "practice": {
+        "type": "bank",
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "四連桿入面，最短嗰條係可以整圈轉嘅側桿。呢副係？",
+            "choices": [
+              "曲柄搖桿",
+              "雙曲柄（最短係固定桿）",
+              "雙搖桿（最短係連接桿）",
+              "棘輪機構"
+            ],
+            "answer": 0,
+            "explain": "最短係曲柄（側桿）→曲柄整圈轉，對面搖桿只係擺。"
+          },
+          {
+            "type": "mcq",
+            "prompt": "雙搖桿機構，輸入應該點樣郁？",
+            "choices": [
+              "其中一條搖桿來回擺",
+              "一定要有一條曲柄整圈轉",
+              "兩個滑塊槽互相垂直",
+              "固定滑塊完全唔郁"
+            ],
+            "answer": 0,
+            "explain": "雙搖桿兩邊都只係擺。輸入用搖桿來回，唔好當成整圈曲柄。"
+          },
+          {
+            "type": "mcq",
+            "prompt": "用搖桿做主動，擺到同從動曲柄拉成一直線，會點？",
+            "choices": [
+              "遇到死點，要靠飛輪慣性，或者兩組機構錯開",
+              "曲柄會自動加速，完全冇問題",
+              "變成齒輪嚙合",
+              "行程變成兩倍固定桿"
+            ],
+            "answer": 0,
+            "explain": "搖桿主動喺共線位置過唔到，就係死點。用曲柄做主動一般冇呢個問題。"
+          }
+        ]
+      },
+      "support": {
+        "definition": "四連桿：固定桿、曲柄、搖桿、連接桿（浮桿）。最短係邊條，就係邊一類。",
+        "example": "曲柄搖桿→縫紉機踏板；雙曲柄→插床急回意象；雙搖桿→雨刷、風扇搖頭。",
+        "tip": "搖桿做主動先會有死點；曲柄做主動一般冇。",
+        "guidedHints": [
+          "最短係側桿、定係固定桿、定係中間浮桿？",
+          "雙搖桿兩邊轉得晒一圈嗎？",
+          "共線嗰下，邊件做主動先過唔到？"
+        ]
+      }
+    },
+    {
+      "id": "c4-slider-crank-anim",
+      "chapter": 6,
+      "nav": "6.3c 滑塊曲柄動畫",
+      "title": "滑塊曲柄四種倒置",
+      "pill": "動畫",
+      "live": true,
+      "teach": "<p>滑塊曲柄可以睇成四連桿把搖桿換成滑塊。固定邊條桿，郁法就唔同。下面四種係同一條鏈嘅倒置。</p>\n<p><strong>往復滑塊曲柄</strong>：曲柄轉，滑塊沿固定直線導槽來回。滑塊行程約等於兩倍曲柄長度。往復壓縮機、蒸汽機、手壓沖床、內燃機活塞，都係呢個概念。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/reciprocating.html\" title=\"往復滑塊曲柄動畫\" loading=\"lazy\"></iframe>\n<p><strong>迴轉滑塊曲柄</strong>：件 1 繞 B 轉，帶動滑塊（件 2）喺件 3 上面滑，同時繞 B 轉；件 3 就繞 A 轉。切削行程同回程佔嘅曲柄角度唔同，所以時間唔同。切削時間比回程時間係 <span style=\"display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.05;margin:0 .2em;font-size:.92em\"><span style=\"padding:0 .28em\">θ₁</span><span style=\"border-top:1.5px solid currentColor;padding:.06em .28em 0\">θ₂</span></span>（θ₁ 比 θ₂）。惠氏急回（Whitworth）、搖臂急回用呢種意象。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/revolving.html\" title=\"迴轉滑塊曲柄動畫\" loading=\"lazy\"></iframe>\n<p><strong>擺動滑塊曲柄</strong>：曲柄轉，滑塊連導槽一齊擺。擺動引擎就係咁。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/oscillating.html\" title=\"擺動滑塊曲柄動畫\" loading=\"lazy\"></iframe>\n<p><strong>固定滑塊曲柄</strong>：滑塊本身固定唔郁。把手繞上方樞軸擺，連桿帶動中間滑桿，沿固定導槽上下往復。手壓式抽水機就係呢個動作。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/fixed-slider.html\" title=\"固定滑塊曲柄動畫\" loading=\"lazy\"></iframe>",
+      "practice": {
+        "type": "bank",
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "往復滑塊曲柄，滑塊行程大約係？",
+            "choices": [
+              "約等於兩倍曲柄長度",
+              "等於連接桿長度",
+              "等於固定桿一半",
+              "冇固定關係"
+            ],
+            "answer": 0,
+            "explain": "直線導槽嘅往復滑塊，行程約等於兩倍曲柄長度。"
+          },
+          {
+            "type": "mcq",
+            "prompt": "手壓式抽水機，把手擺、中間滑桿上下，較接近？",
+            "choices": [
+              "固定滑塊曲柄",
+              "雙曲柄",
+              "平行相等曲柄",
+              "凸輪"
+            ],
+            "answer": 0,
+            "explain": "固定滑塊唔郁。把手繞上方樞軸擺，滑桿沿導槽往復。"
+          },
+          {
+            "type": "mcq",
+            "prompt": "迴轉滑塊曲柄切削同回程，時間點解唔同？",
+            "choices": [
+              "切削同回程對應嘅曲柄角度 θ₁、θ₂ 唔相等",
+              "因為兩個滑塊一定垂直",
+              "因為兩曲柄角速度一定相同",
+              "因為用咗皮帶打滑"
+            ],
+            "answer": 0,
+            "explain": "切削時間比回程時間，就係曲柄轉過嘅 θ₁ 比 θ₂。角度唔等，時間就唔等。"
+          }
+        ]
+      },
+      "support": {
+        "definition": "滑塊曲柄係四連桿把搖桿換成滑塊。固定唔同桿，就有往復、迴轉、擺動、固定四種。",
+        "example": "往復→活塞；迴轉→惠氏急回；擺動→擺動引擎；固定→手壓抽水機。",
+        "tip": "往復記行程約兩倍曲柄；抽水機睇邊件固定。",
+        "guidedHints": [
+          "滑塊沿住唔郁嘅直線槽，行程同曲柄長度點比？",
+          "抽水機把手係整圈轉，定係繞上方樞軸擺？",
+          "切削同回程時間，睇曲柄轉過嘅角度等唔等？"
+        ]
+      }
+    },
+    {
+      "id": "c4-other-linkage-anim",
+      "chapter": 6,
+      "nav": "6.3d 其他連桿動畫",
+      "title": "其他連桿機構",
+      "pill": "動畫",
+      "live": true,
+      "teach": "<p>除咗基本四連桿同滑塊曲柄，下面幾種連桿都要識得分。</p>\n<p><strong>雙滑塊</strong>：兩個滑塊。槽如果互相垂直，連桿上嘅點會行橢圓。槽改成直線、由曲柄帶動，輸出就係簡諧來回，即蘇格蘭軛（Scotch yoke）。動畫可以切換兩種睇。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/double-slider.html\" title=\"雙滑塊機構動畫\" loading=\"lazy\"></iframe>\n<p><strong>等腰連桿</strong>：桿件等長。下面係直線運動意象——等長桿令一端行直線。橢圓規、歐丹連接器（Oldham）、司羅氏（Scott-Russell）直線運動，一句記：都係等長桿嘅親戚。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/isosceles.html\" title=\"等腰連桿機構動畫\" loading=\"lazy\"></iframe>\n<p><strong>平行相等曲柄</strong>：平行四邊形。兩條曲柄一樣長，轉向相同，角速度都相同。火車車輪平行桿、平行尺用呢種。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/parallel-equal.html\" title=\"平行相等曲柄動畫\" loading=\"lazy\"></iframe>\n<p><strong>不平行等曲柄</strong>：兩條曲柄一樣長，但唔保持平行。一種係兩固定鉸距離同浮桿唔等長，好似汽車前輪轉向，兩邊轉角唔同。另一種連心線同浮桿都等長，但交叉裝起，兩曲柄轉向相反。動畫可以切換。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/nonparallel-equal.html\" title=\"不平行等曲柄動畫\" loading=\"lazy\"></iframe>\n<p><strong>肘節</strong>：兩桿接近拉成一直線嗰陣，輸出挪得好少，但力可以好大。碎石機、萬能鉗、衝壓機、肘節夾具都靠呢一下。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/toggle.html\" title=\"肘節機構動畫\" loading=\"lazy\"></iframe>\n<p><strong>比例運動</strong>：用平行四邊形縮放（pantograph）。一點行一個形，另一點行相似嘅放大或者縮小。雕刻機、縮放繪圖用呢個原理。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/pantograph.html\" title=\"比例運動機構動畫\" loading=\"lazy\"></iframe>\n<p><strong>球面四連桿</strong>：四條轉動鉸軸交於同一點，桿件喺球面上郁。萬向接頭就係呢類嘅應用。下面只係示意，唔係精密立體模擬。</p>\n<iframe class=\"sim-frame\" src=\"assets/linkages/spherical.html\" title=\"球面四連桿動畫\" loading=\"lazy\"></iframe>",
+      "practice": {
+        "type": "bank",
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "平行相等曲柄（平行四邊形）兩條曲柄點轉？",
+            "choices": [
+              "方向相同，角速度相同",
+              "方向相反",
+              "兩邊都只係搖、唔轉圈",
+              "一條停住"
+            ],
+            "answer": 0,
+            "explain": "平行四邊形兩邊曲柄等長，同向、同角速度。"
+          },
+          {
+            "type": "mcq",
+            "prompt": "比例運動機構主要做咩？",
+            "choices": [
+              "一點行一個形，另一點行相似嘅放大或縮小",
+              "把旋轉變成單向棘輪",
+              "令兩條曲柄反向等速",
+              "只係固定滑塊"
+            ],
+            "answer": 0,
+            "explain": "平行四邊形縮放，兩點軌跡相似，一大一小。雕刻、縮放繪圖用呢個原理。"
+          },
+          {
+            "type": "mcq",
+            "prompt": "肘節兩桿接近拉直嗰陣，輸出有咩特點？",
+            "choices": [
+              "位移好細，但力可以好大",
+              "位移最大，力幾乎係零",
+              "兩曲柄同向等速",
+              "滑塊行程等於兩倍曲柄"
+            ],
+            "answer": 0,
+            "explain": "接近共線時，輸出挪很少，力可以好大。碎石機、萬能鉗、衝壓都用呢下。"
+          }
+        ]
+      },
+      "support": {
+        "definition": "平行相等曲柄同向等速；不平行可以係轉向（轉角唔同）或者交叉（轉向相反）。肘節近伸直就力大、位移細。比例運動係縮放。",
+        "example": "火車平行桿；汽車前輪轉向意象；萬向接頭係球面四連桿。",
+        "tip": "先問：兩曲柄同向定反向？輸出係縮放，定係力大？",
+        "guidedHints": [
+          "平行四邊形兩邊曲柄，方向同快慢點比較？",
+          "描點同筆嗰點，軌跡係相似定係無關？",
+          "兩桿拉到幾乎一直線，位移同力邊樣變？"
+        ]
       }
     },
     {
@@ -2125,7 +2305,7 @@
       "title": "直線／旋轉／往復同轉換",
       "pill": "運動",
       "live": true,
-      "teach": "<p>四類常說運動：</p>\n<ul>\n  <li><strong>直線</strong>：沿直線移動</li>\n  <li><strong>往復</strong>：前後來回直線</li>\n  <li><strong>旋轉</strong>：繞軸轉</li>\n  <li><strong>搖擺</strong>：繞定點弧線來回（鞦韆概念）</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_motion_types.png\" alt=\"運動類型（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/c4_motion.svg'\"></figure>\n<p>轉換例：凸輪（轉→往復）、齒條齒輪（轉↔直線）、滑塊曲柄（轉↔往復）。</p>",
+      "teach": "<p>四類常說運動：</p>\n<ul>\n  <li><strong>直線</strong>：沿直線移動</li>\n  <li><strong>往復</strong>：前後來回直線</li>\n  <li><strong>旋轉</strong>：繞軸轉</li>\n  <li><strong>搖擺</strong>：繞定點弧線來回（鞦韆概念）</li>\n</ul>\n<figure class=\"fig\"><img src=\"assets/kuailong_motion_types.png\" alt=\"運動類型（校本卡通）\" onerror=\"this.onerror=null;this.src='assets/c4_motion.svg'\"></figure>\n<p>轉換例：凸輪（轉→往復）、齒條齒輪（轉↔直線）、滑塊曲柄（轉↔往復）。</p>\n<p>滑塊曲柄幾種倒置點郁，見 <strong>6.3c</strong>。</p>",
       "practice": {
         "type": "match",
         "prompt": "配對機構與較典型轉換：",
