@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>擺動滑塊曲柄</title>
+<link rel="stylesheet" href="linkages.css">
+</head>
+<body>
+<div class="sim" data-kind="oscillating">
+  <div class="controls">
+    <div class="name" id="name">擺動滑塊曲柄</div>
+    <button type="button" id="btnPlay">暫停</button>
+    <button type="button" id="btnSlow" aria-pressed="false">慢速</button>
+    <button type="button" id="btnMode" hidden>切換</button>
+    <div class="status" id="status"></div>
+  </div>
+  <canvas id="view" aria-label="擺動滑塊曲柄動畫"></canvas>
+</div>
+<script src="linkages.js"></script>
+</body>
+</html>
